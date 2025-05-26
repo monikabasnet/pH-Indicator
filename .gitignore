@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# SQLite database
+db.sqlite3
+
+# Uploaded images
+media/
+
+# Secret files
+.env
+
+# Optional: skip trained model (if sensitive or large)
+predictor/model/ph_predictor_rf_model.pkl
+
+# MacOS file
+.DS_Store

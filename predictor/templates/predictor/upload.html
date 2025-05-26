@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Upload Litmus Paper Image</title>
+</head>
+<body>
+    <h1> Upload Litmus Strip Image to Predict pH</h1>
+
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="image" accept="image/*" required>
+        <button type="submit">Predict pH</button>
+    </form>
+    
+    
+</body>
+</html>
